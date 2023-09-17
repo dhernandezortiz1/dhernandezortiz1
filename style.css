@@ -1,0 +1,100 @@
+body {
+    background-image: url("otherBackground.png");
+    background-color: #cccccc;
+    color: white;
+    font-family: sans-serif;
+}
+.titlehead {
+    text-decoration: underline;
+}
+.headshot {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    text-align: center;
+}
+caption {
+    text-decoration: underline;
+}
+table {
+    background-color: aliceblue;
+    padding: 1%;
+    width: 40%;
+    height: 250px;
+    border: 5px lightblue solid;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+tr {
+    color: darkblue;
+}
+.trTop {
+    font-weight: bold;
+    height: 15%;
+    font-size: large;
+}
+tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+tr:nth-child(even) {
+    background-color: rgb(136, 228, 247)
+}
+td {
+    width: 100px;
+}
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    color: silver;
+}
+.lists {
+    background-color: darkblue;
+    border-radius: 25px;
+    float: left;
+    width: 25%;
+    margin-top: 1cm;
+    height: 300px;
+}
+.download {
+    border: 1px aliceblue solid;
+    border-radius: 25px;
+    text-align: center;
+    background-color: aliceblue;
+    width: 15%;
+}
+.quote {
+    font-family:fantasy;
+    font-style: italic;
+    border: 1px white solid;
+    border-radius: 15px;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(199, 226, 250);
+    color: darkblue;
+    width: 25%;
+}
+.listLinks {
+    color: white;
+}
+.lists2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-decoration: underline;
+    color: darkblue;
+    float: right;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 1px;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
